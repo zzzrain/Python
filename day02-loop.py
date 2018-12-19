@@ -26,7 +26,7 @@ arrs.sort()
 print '-------------------------------------我是分割线-------------------------------------'
 
 # 列表属性&&方法
-print 'append() && sort()方法：', arrs
+print 'append() && sort()：', arrs
 print '统计出现频率 count()：', arrs.count(10)
 print '列表的长度 len()：', len(arrs)
 print '列表最大值 max()：', max(arrs)
@@ -50,5 +50,5 @@ print '时间格式', time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
 print '月历', calendar.month(2018, 3)
 
 print '随机数', random.random()
-print '固定随机数', random.choice(['Q', 'B', 'S', 'H', 'E', 'J'])
+print '固定随机数', random.choice(['Q', 'B', 'S', 'E', 'J', 'H'])
 print '范围随机数', int(random.uniform(1,10))
